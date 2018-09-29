@@ -1,2 +1,4 @@
-# personal-rejection
-quantumult rejection
+# personal-rules
+Shadowrocket
+Quantumult
+Potatso PCF FILE

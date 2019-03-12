@@ -1,5 +1,1 @@
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-
-(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
-(.*\.||)(360|360safe|so|qhimg|qihoo|360totalsecurity)\.(cn|com)
-(\.|)baidu\.com

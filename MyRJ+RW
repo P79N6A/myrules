@@ -1,10 +1,9 @@
-[REWRITE]
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
-[URL-REJECTION]
-#4 屏蔽百度审查 屏蔽追踪 数据包明文匹配
+
+//屏蔽百度审查 屏蔽追踪 数据包明文匹配
 (api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
-#6 屏蔽 360 站点 屏蔽追踪 数据包明文匹配
+//屏蔽 360 站点 屏蔽追踪 数据包明文匹配
 (.*\.||)(360|360safe|so|qhimg|qihoo|360totalsecurity)\.(cn|com)
-#7 屏蔽百度定位 屏蔽百度定位 数据包明文匹配
+//屏蔽百度定位 屏蔽百度定位 数据包明文匹配
 (\.|)baidu\.com

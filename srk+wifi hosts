@@ -1,4 +1,6 @@
 //20190326与srk保持同步
+//与skr前部分一致 适用于电信宽带下AM的视频提速
+//推荐加入srk场景部分
 [General]
 bypass-system = true
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.crashlytics.com, captive.apple.com, 17.0.0.0/8
@@ -462,8 +464,7 @@ FINAL,PROXY
 //所以这类规则最好放在最下面 防止不必要的DNS查询
 [Host]
 localhost = 127.0.0.1
-mvod.itunes.apple.com = 17.253.117.201
-aod.itunes.apple.com = 17.253.117.202
+mvod.itunes.apple.com = 121.254.136.72
 
 [URL Rewrite]
 ^http://(www.)?g.cn https://www.google.com 302
